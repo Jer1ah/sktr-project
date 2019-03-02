@@ -6,7 +6,7 @@ html, body {
   font-family: "Oswald", sans-serif;
 }
 
-.nav__wrapper {
+.nav__wrapper, .collection__main {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -42,20 +42,74 @@ html, body {
 .header__heading .black {
   color: black;
 }
-.header__heading button {
-  margin-top: 4rem;
+.header__heading a {
+  display: inline-block;
+  margin-top: 2rem;
   background-color: inherit;
   color: white;
   border: 0.2rem solid white;
   text-transform: uppercase;
   font-size: 1.3rem;
-  padding: 1.2rem 3.3rem;
+  padding: 1.2rem 4rem;
   transition: all 0.25s;
+  text-decoration: none;
+  letter-spacing: 0.3rem;
 }
-.header__heading button:hover {
+.header__heading a:hover {
   background-color: white;
   color: black;
   cursor: pointer;
+}
+
+.collection {
+  padding: 0.1rem;
+}
+.collection__main {
+  justify-content: flex-end;
+  width: 85rem;
+  margin: 0 auto;
+  position: relative;
+}
+.collection__main--heading {
+  position: absolute;
+  left: 0;
+}
+.collection__main--heading h1 {
+  font-size: 6.3rem;
+  line-height: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 1rem;
+}
+.collection__main--heading .green {
+  color: greenyellow;
+}
+.collection__main--heading a {
+  background-color: black;
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  padding: 1.1rem 4.5rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+.collection__main img {
+  height: 35rem;
+  width: 73rem;
+}
+.collection__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  width: 85rem;
+  margin: 3.5rem auto 7rem;
+}
+.collection__item {
+  height: 36rem;
+}
+.collection__item img {
+  height: 100%;
 }
 
 .nav {

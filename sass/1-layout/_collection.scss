@@ -1,0 +1,60 @@
+.collection {
+    padding: .1rem;
+
+    &__main {
+        @extend %flex-between;
+        justify-content: flex-end;
+        width: 85rem;
+        margin: 0 auto;
+        position: relative;
+
+        &--heading {
+            position: absolute;
+            left: 0;
+
+            h1 {
+                font-size: 6.3rem;
+                line-height: 3rem;
+                text-transform: uppercase;
+                letter-spacing: 1rem;
+            }
+
+            .green {
+                color: greenyellow;
+            }
+
+            a {
+                background-color: black;
+                color: white;
+                border: none;
+                text-transform: uppercase;
+                padding: 1.1rem 4.5rem;
+                font-size: 1.5rem;
+                text-decoration: none;
+            }
+        }
+
+        img {
+           height: 35rem; 
+           width: 73rem;
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+        width: 85rem;
+        margin: 3.5rem auto 7rem;
+    }
+
+    &__item {
+        height: 36rem;
+
+        img {
+            height: 100%;
+        }
+    }
+}

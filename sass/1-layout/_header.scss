@@ -25,18 +25,21 @@
             color: black;
         }
 
-        button {
-            margin-top: 4rem;
+        a {
+            display: inline-block;
+            margin-top: 2rem;
             background-color: inherit;
             color: white;
             border: .2rem solid white;
             text-transform: uppercase;
             font-size: 1.3rem;
-            padding: 1.2rem 3.3rem;
+            padding: 1.2rem 4rem;
             transition: all .25s;
+            text-decoration: none;
+            letter-spacing: .3rem
         }
 
-        button:hover {
+        a:hover {
             background-color: white;
             color: black;
             cursor: pointer;
