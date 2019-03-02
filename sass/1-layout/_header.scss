@@ -1,0 +1,45 @@
+.header {
+    height: 100vh;
+    text-align: center;
+
+    video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -10;
+        width: 100%;
+    }
+
+    &__heading {
+        margin: 20rem auto 0;
+
+        h1 {
+            font-size: 10rem;
+            text-transform: uppercase;
+            color: white;
+            letter-spacing: 1.9rem;
+            line-height: 2.2rem;
+        }
+
+        .black {
+            color: black;
+        }
+
+        button {
+            margin-top: 4rem;
+            background-color: inherit;
+            color: white;
+            border: .2rem solid white;
+            text-transform: uppercase;
+            font-size: 1.3rem;
+            padding: 1.2rem 3.3rem;
+            transition: all .25s;
+        }
+
+        button:hover {
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+    }
+}

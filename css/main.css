@@ -1,0 +1,93 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+  font-family: "Oswald", sans-serif;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.header {
+  height: 100vh;
+  text-align: center;
+}
+.header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  width: 100%;
+}
+.header__heading {
+  margin: 20rem auto 0;
+}
+.header__heading h1 {
+  font-size: 10rem;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1.9rem;
+  line-height: 2.2rem;
+}
+.header__heading .black {
+  color: black;
+}
+.header__heading button {
+  margin-top: 4rem;
+  background-color: inherit;
+  color: white;
+  border: 0.2rem solid white;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  padding: 1.2rem 3.3rem;
+  transition: all 0.25s;
+}
+.header__heading button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.nav {
+  margin-top: 5rem;
+}
+.nav__wrapper {
+  width: 95rem;
+  height: 100%;
+  margin: 0 auto;
+}
+.nav__logo {
+  width: 13.5rem;
+}
+.nav__list {
+  list-style: none;
+}
+.nav__items {
+  margin-right: 3rem;
+}
+.nav__items a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+}
+.nav__items img {
+  height: 2.7rem;
+}
+.nav .active a {
+  color: greenyellow;
+}
+
+/*# sourceMappingURL=main.css.map */

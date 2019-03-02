@@ -1,0 +1,42 @@
+.nav {
+    margin-top: 5rem;
+
+    &__wrapper {
+        width: 95rem;
+        height: 100%;
+        margin: 0 auto;
+        @extend %flex-between;
+    }
+
+    &__logo {
+        width: 13.5rem;
+    }
+
+    &__list {
+        @extend %flex-end;
+        list-style: none;
+    }
+
+    &__items {
+        margin-right: 3rem;
+
+        a {
+            font-size: 1.5rem;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: .4rem;
+        }
+
+        img {
+            height: 2.7rem;
+        }
+    }
+
+    .active {
+        a {
+            color: greenyellow;
+        }
+    }
+}
