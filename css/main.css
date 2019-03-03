@@ -67,7 +67,7 @@ html, body {
 .collection__main {
   justify-content: flex-end;
   width: 85rem;
-  margin: 0 auto;
+  margin: 10rem auto 0;
   position: relative;
 }
 .collection__main--heading {
@@ -103,13 +103,63 @@ html, body {
   list-style: none;
   padding: 0;
   width: 85rem;
-  margin: 3.5rem auto 7rem;
+  margin: 3.5rem auto 10rem;
 }
 .collection__item {
   height: 36rem;
 }
 .collection__item img {
   height: 100%;
+}
+
+.about {
+  height: 80rem;
+  background: url("../../img/skateboard7.png");
+  background-size: cover;
+  padding: 0.1rem;
+}
+.about__info {
+  background-color: black;
+  color: white;
+  width: 53rem;
+  height: 32rem;
+  position: relative;
+  margin-top: 22rem;
+  float: right;
+  margin-right: 13%;
+}
+.about__info h1 {
+  line-height: 7rem;
+  font-size: 7rem;
+  position: absolute;
+  left: -5rem;
+  top: 3rem;
+  margin: 0;
+  letter-spacing: 1.2rem;
+  text-transform: uppercase;
+}
+.about__info p {
+  width: 65%;
+  margin: 13rem auto 0;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+}
+.about__info a {
+  color: black;
+  background-color: white;
+  padding: 1.3rem 4rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  position: absolute;
+  right: 5rem;
+  bottom: -2rem;
+  transition: all 0.3s;
+}
+.about__info a:hover {
+  cursor: pointer;
+  border: 0.2rem solid black;
 }
 
 .nav {
