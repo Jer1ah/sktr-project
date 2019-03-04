@@ -1,0 +1,111 @@
+.footer {
+    background-color: black;
+    padding: .1rem;
+
+    &__wrapper {
+        width: 95rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 6.5rem auto;
+    }
+
+    &__links {
+        &--list {
+            padding: 0;
+            list-style: none;
+        }
+
+        &--link {
+            margin: .5rem 0;
+
+            a {
+                color: white;
+                font-size: 1.5rem;
+            }
+        }
+
+        &--link:last-child {
+            margin-top: 2rem;
+            
+            a {
+                text-decoration: none;
+            }
+
+            img {
+                width: 2rem;
+                margin-right: .65rem;
+            }
+        }
+    }
+
+    &__social {
+        h3 {
+            color: white;
+            font-size: 1.7rem;
+            margin-bottom: 0;
+        }
+    }
+
+    &__form {
+        margin-top: 1.5rem;
+        display: flex;
+        align-items: center;
+        
+        input {
+            border: none;
+            text-indent: 1rem;
+            width: 25rem;
+            height: 4rem;
+            font-size: 1.5rem;
+        }
+        
+        button {
+            background-color: inherit;
+            border: .2rem solid white;
+            color: white;
+            height: 4.3rem;
+            width: 15.5rem;
+            margin-left: .9rem;
+            font-size: 1.4rem;
+        }
+    }
+
+    &__list {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        list-style: none;
+        padding: 0;
+    }
+
+    &__items {
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 .7rem;
+
+        img {
+            width: 1.5rem;
+        }
+    }
+
+    &__items:first-child {
+        margin-left: 0;
+    }
+
+    &__bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+
+        span {
+            font-size: 1.3rem;
+        }
+    }
+}
