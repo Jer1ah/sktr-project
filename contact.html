@@ -7,6 +7,7 @@
     <title>sKTR</title>
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
     <header class="header">
@@ -14,49 +15,52 @@
             <div class="nav__wrapper">
                 <img src="img/sktr.png" alt="Sktr Logo" class="nav__logo">
                 <ul class="nav__list">
-                    <li class="nav__items active"><a href="index.html">Home</a></li>
+                    <li class="nav__items"><a href="index.html">Home</a></li>
                     <li class="nav__items"><a href="#">Shop</a></li>
                     <li class="nav__items"><a href="#">Our Story</a></li>
                     <li class="nav__items"><a href="#">Blog</a></li>
-                    <li class="nav__items"><a href="contact.html">Contact Us</a></li>
+                    <li class="nav__items active"><a href="contact.html">Contact Us</a></li>
                     <li class="nav__items"><img src="img/shopping-bag.svg" alt="Shopping Cart Icon" class="shopping__cart--icon"></li>
                 </ul> <!-- .nav__list end -->
             </div> <!-- .nav__wrapper end -->
         </nav>
-        <div class="header__heading">
-            <h1 class="black">Kings</h1>
-            <h1>Of The</h1>
-            <h1>Road</h1>
-            <a href="#">Shop Now</a>
-        </div> <!-- .header__heading end -->
-        <video loop autoplay>
-            <source src="img/skate.mp4"> 
-        </video> <!-- video end -->
     </header> <!-- .header end -->
-    <main class="collection">
-        <div class="collection__main">
-            <div class="collection__main--heading">
-                <h1 class="green">New</h1>
-                <h1>Colle-</h1>
-                <h1>ction</h1>
-                <a href="#">See All</a>
-            </div> <!-- .collection__main-heading end -->
-            <img src="img/skateboardMain.png" alt="Skateboard Image">
-        </div> <!-- .collection__main end -->
-        <ul class="collection__list">
-            <li class="collection__item"><img src="img/skateboard1.png" alt="Skateboard Image"></li>
-            <li class="collection__item"><img src="img/skateboard2.png" alt="Skateboard Image"></li>
-            <li class="collection__item"><img src="img/skateboard3.png" alt="Skateboard Image"></li>
-            <li class="collection__item"><img src="img/skateboard4.png" alt="Skateboard Image"></li>
-        </ul> <!-- .collection__list end -->
-    </main> <!-- .collection end -->
-    <main class="about">
-        <div class="about__info">
-            <h1>About <br> Us</h1>
-            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
-            <a href="#">Our Story</a>
-        </div> <!-- .about__info end -->
-    </main> <!-- .about end -->
+    <main class="contact">
+        <div class="contact__heading">
+            <h1>VISIT <br> US</h1>
+            <img src="img/contact-heading.png" alt="Image of skateboard and feet">
+        </div> <!-- .contact__heading end -->
+        <div class="contact__secondary"> 
+            <div class="contact__info">
+                <ul class="contact__store">
+                    <li><p>Our Store</p></li>
+                    <li><p>500 Terry Francois Street,</p></li>
+                    <li><p>San Francisco, CA 94158</p></li>
+                    <li><p>Tel. 123-456-7890</p></li>
+                </ul> <!-- .contact__store end -->
+                <ul class="contact__hours">
+                    <li><p>Opening Hours</p></li>
+                    <li><p>Monday - Friday: 11.00 - 18.30</p></li>
+                    <li><p>Saturday: 11.00 - 17.00</p></li>
+                    <li><p>Sunday: 12.30 - 16.30</p></li>
+                </ul> <!-- .contact__hours end -->
+            </div> <!-- .contact__info end -->
+            <form action="#" class="contact__form">
+                <div class="form__top">
+                    <div class="form__top--left">
+                        <input type="text" placeholder="Name">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <textarea placeholder="Message"></textarea>
+                </div>
+                <button>Submit</button>
+            </form> <!-- .contact__form end -->
+            <div class="contact__maps">
+                <img src="img/googlemaps.png" alt="Google maps image">
+            </div> <!-- .contact__maps end -->
+        </div> <!-- .contact__secondary -->
+    </main> <!-- .contact end -->
     <footer class="footer">
         <div class="footer__wrapper">
             <div class="footer__links">
