@@ -1,0 +1,48 @@
+.faq {
+    width: 90rem;
+    margin: 5rem auto;
+
+    h1 {
+        font-size: 4rem;
+        letter-spacing: .5rem;
+    }
+
+    &__questions {
+        padding: 0;
+        list-style: none;
+    }
+
+    &__question {
+        border-bottom: .05rem solid black;
+        padding-bottom: 2rem;
+        margin-top: 2rem;
+
+        span {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 2.5rem;
+
+            img {
+                width: 1.5rem;
+            }
+
+            img:hover {
+                cursor: pointer;
+            }
+        }
+        
+        p {
+            font-size: 1.6rem;
+            margin-bottom: .5rem;
+        }
+    }
+
+    ol {
+        font-size: 1.5rem;
+    }
+}
+
+.question__wrapper {
+    display: none;
+}
