@@ -21,4 +21,72 @@
             margin-top: 0;
         }
     }
+
+    &__info {
+        width: 90rem;
+        margin: 5rem auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        &--left {
+            width: 35rem;
+            margin-right: 7rem;
+            margin-top: 0;
+            font-size: 2.1rem;
+            font-weight: bold;
+            line-height: 3.5rem;
+        }
+
+        &--right {
+            width: 60rem;
+            font-size: 1.5rem;
+
+            p {
+                margin: 0;
+            }
+
+            p:first-child {
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    &__team {
+        width: 90rem;
+        margin: 8rem auto;
+
+        h1 {
+            font-size: 4rem;
+            letter-spacing: .7rem;
+            margin-bottom: 0;
+        }
+    }
+
+    &__teamList {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        list-style: none;
+    }
+
+    &__teamItem {
+        width: 28rem;
+
+        img {
+            width: 100%;
+        }
+
+        h3 {
+            font-size: 2.5rem;
+            margin: 1rem 0;
+        }
+
+        p {
+            font-size: 1.5rem;
+            width: 25rem;
+            margin-top: 0; 
+        }
+    }
 }

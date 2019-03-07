@@ -1,0 +1,124 @@
+.blog {
+    &__heading {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 18rem auto 0;
+        width: 95rem;
+        position: relative;
+
+        img {
+            height: 34rem;
+        }
+
+        h1 {
+            position: absolute;
+            top: 2rem;
+            left: -.5rem;
+            letter-spacing: 1.3rem;
+            font-size: 6.5rem;
+            line-height: 7.2rem;
+            margin-top: 0;
+        }
+    }
+
+    &__warning {
+        width: 95rem;
+        height: 6rem;
+        margin: 0 auto 5rem;
+        background-color: #3ABA89;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            font-size: 1.5rem;
+            color: white;
+        }
+    }
+
+    &__list {
+        padding: 0;
+        list-style: none;
+        width: 90rem;
+        margin: 5rem auto;
+    }
+
+    &__item {
+        display: flex;
+        margin: 3rem 0;
+
+        img {
+            height: 36rem;
+        }
+
+        &--top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 2.5rem;
+            width: 100%;
+
+            img {
+                width: 2rem;
+                height: 2rem;
+                margin-right: .7rem;
+            }
+
+            img:last-child {
+                margin-right: 0;
+            }
+
+            .left {
+                display: flex;
+                align-items: center;
+                font-size: 1.2rem;
+                color: gray;
+            }
+        }
+
+        &--info {
+            width: 35rem;
+            margin-left: 5rem;
+            margin-top: 2.8rem;
+
+            .heading {
+                color: black;
+                text-decoration: none;
+                font-size: 3rem;
+                letter-spacing: .5rem;
+                line-height: 3.8rem;
+            }
+
+            p {
+                color: gray;
+                font-size: 1.5rem;
+                border-bottom: .1rem solid lightgray;
+                padding-bottom: 7rem;
+            }
+        }
+
+        &--bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            img {
+                width: 2rem;
+                height: 2rem;
+            }
+
+            a {
+                color: gray;
+                text-decoration: none;
+                margin-left: 1rem;
+            }
+
+            span {
+                font-size: 1.3rem;
+                color: gray;
+            }
+        }
+    }
+}

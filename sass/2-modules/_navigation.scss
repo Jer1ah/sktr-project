@@ -22,7 +22,7 @@
 
         a {
             font-size: 1.5rem;
-            color: black;
+            color: #3ABA89;
             text-decoration: none;
             font-weight: bold;
             text-transform: uppercase;
@@ -36,7 +36,7 @@
 
     .active {
         a {
-            color: greenyellow;
+            color: darken(#3ABA89, 35%)
         }
     }
 }
