@@ -1,0 +1,99 @@
+.article {
+    width: 70rem;
+    margin: 0 auto;
+    margin-top: 10rem;
+
+    &__heading {
+        span {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            font-size: 1.35rem;
+
+            img {
+                width: 3.5rem;
+                margin-right: 1rem;
+            }
+        }
+
+        h1 {
+            font-size: 5.5rem;
+            line-height: 6.3rem;
+            letter-spacing: .7rem;
+            margin-bottom: 0;
+        }
+
+        p {
+            font-size: 1.85rem;
+            letter-spacing: .1rem;
+        }
+    }
+
+    &__image {
+        width: 100%;
+    }
+
+    .imageInfo {
+        font-size: 1.6rem;
+        width: 66rem;
+        letter-spacing: .1rem
+    }
+
+    .italicParagraph {
+        font-size: 2.1rem;
+        font-style: italic;
+        width: 60rem;
+        letter-spacing: .1rem;
+        border-left: .2rem solid #3ABA89;
+        padding-left: 2rem;
+        margin: 3rem 0;
+    }
+
+    .paragraph1, .paragraph2, .paragraph3 {
+        font-size: 1.7rem;
+        letter-spacing: .1rem;
+    }
+
+    h3 {
+        font-size: 2.1rem;
+        letter-spacing: .1rem;
+        margin: 2.5rem 0;
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 0;
+        list-style: none;
+        border-top: .15rem solid lightgrey;
+        border-bottom: .15rem solid lightgrey;
+        margin: 6.4rem 0 1.5rem;
+        padding: 2rem;
+    }
+
+    &__item {
+        margin-right: 2.5rem;
+
+        img {
+            height: 2rem;
+        }
+    }
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 5rem;
+
+        img {
+            height: 1.8rem;
+            margin-right: .3rem;
+        }
+
+        span {
+            font-size: 1.4rem;
+            margin-left: .3rem;
+        }
+    }
+}

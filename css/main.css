@@ -67,7 +67,7 @@ html, body {
 .collection__main {
   justify-content: flex-end;
   width: 85rem;
-  margin: 10rem auto 0;
+  margin: 1rem auto 0;
   position: relative;
 }
 .collection__main--heading {
@@ -525,7 +525,7 @@ html, body {
 }
 .blog__item {
   display: flex;
-  margin: 3rem 0;
+  margin: 5rem 0;
 }
 .blog__item img {
   height: 36rem;
@@ -538,12 +538,14 @@ html, body {
   width: 100%;
 }
 .blog__item--top img {
-  width: 2rem;
-  height: 2rem;
-  margin-right: 0.7rem;
+  width: 3.3rem;
+  height: 3.3rem;
+  margin-right: 0.9rem;
 }
 .blog__item--top img:last-child {
   margin-right: 0;
+  height: 1.5rem;
+  width: 1.5rem;
 }
 .blog__item--top .left {
   display: flex;
@@ -562,6 +564,10 @@ html, body {
   font-size: 3rem;
   letter-spacing: 0.5rem;
   line-height: 3.8rem;
+  transition: all 0.3s;
+}
+.blog__item--info .heading:hover {
+  color: #3ABA89;
 }
 .blog__item--info p {
   color: gray;
@@ -576,8 +582,8 @@ html, body {
   width: 100%;
 }
 .blog__item--bottom img {
-  width: 2rem;
-  height: 2rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 .blog__item--bottom a {
   color: gray;
@@ -587,6 +593,89 @@ html, body {
 .blog__item--bottom span {
   font-size: 1.3rem;
   color: gray;
+}
+
+.article {
+  width: 70rem;
+  margin: 0 auto;
+  margin-top: 10rem;
+}
+.article__heading span {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.35rem;
+}
+.article__heading span img {
+  width: 3.5rem;
+  margin-right: 1rem;
+}
+.article__heading h1 {
+  font-size: 5.5rem;
+  line-height: 6.3rem;
+  letter-spacing: 0.7rem;
+  margin-bottom: 0;
+}
+.article__heading p {
+  font-size: 1.85rem;
+  letter-spacing: 0.1rem;
+}
+.article__image {
+  width: 100%;
+}
+.article .imageInfo {
+  font-size: 1.6rem;
+  width: 66rem;
+  letter-spacing: 0.1rem;
+}
+.article .italicParagraph {
+  font-size: 2.1rem;
+  font-style: italic;
+  width: 60rem;
+  letter-spacing: 0.1rem;
+  border-left: 0.2rem solid #3ABA89;
+  padding-left: 2rem;
+  margin: 3rem 0;
+}
+.article .paragraph1, .article .paragraph2, .article .paragraph3 {
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+}
+.article h3 {
+  font-size: 2.1rem;
+  letter-spacing: 0.1rem;
+  margin: 2.5rem 0;
+}
+.article__list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+  list-style: none;
+  border-top: 0.15rem solid lightgrey;
+  border-bottom: 0.15rem solid lightgrey;
+  margin: 6.4rem 0 1.5rem;
+  padding: 2rem;
+}
+.article__item {
+  margin-right: 2.5rem;
+}
+.article__item img {
+  height: 2rem;
+}
+.article__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+.article__footer img {
+  height: 1.8rem;
+  margin-right: 0.3rem;
+}
+.article__footer span {
+  font-size: 1.4rem;
+  margin-left: 0.3rem;
 }
 
 .nav {
