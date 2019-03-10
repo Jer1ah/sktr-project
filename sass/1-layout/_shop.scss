@@ -1,0 +1,91 @@
+.shop {
+    .skateboards {
+        width: 95rem;
+        margin: 13.5rem auto 5rem;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+
+        h1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 6.5rem;
+            line-height: 6.5rem;
+        }
+
+        &__list {
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            width: 72.5rem;
+            list-style: none;
+        }
+
+        &__item {
+            width: 45%;
+            margin-left: 2rem;
+
+            img {
+                width: 100%;
+            }
+
+            h5 {
+                font-size: 1.8rem;
+                margin: 1rem 0 0;
+                font-weight: 500;
+            }
+
+            p {
+                font-size: 1.5rem;
+                margin: .7rem 0 2.5rem;
+                font-weight: 300;
+            }
+        }
+    }
+
+    .longboards {
+        width: 95rem;
+        margin: 13.5rem auto 5rem;
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+
+        h1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-size: 6.5rem;
+            line-height: 6.5rem;
+        }
+
+        &__list {
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            width: 72.5rem;
+            list-style: none;
+        }
+
+        &__item {
+            width: 45%;
+            margin-left: 2rem;
+
+            img {
+                width: 100%;
+            }
+
+            h5 {
+                font-size: 1.8rem;
+                margin: 1rem 0 0;
+                font-weight: 500;
+            }
+
+            p {
+                font-size: 1.5rem;
+                margin: .7rem 0 2.5rem;
+                font-weight: 300;
+            }
+        }
+    }
+}

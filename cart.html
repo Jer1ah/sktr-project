@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>sKTR</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
     <header class="header">
@@ -13,8 +14,8 @@
             <div class="nav__wrapper">
                 <img src="img/sktr.png" alt="Sktr Logo" class="nav__logo">
                 <ul class="nav__list">
-                    <li class="nav__items active"><a href="index.html">Home</a></li>
-                    <li class="nav__items"><a href="shop.html">Shop</a></li>
+                    <li class="nav__items"><a href="index.html">Home</a></li>
+                    <li class="nav__items active"><a href="shop.html">Shop</a></li>
                     <li class="nav__items"><a href="story.html">Our Story</a></li>
                     <li class="nav__items"><a href="blog.html">Blog</a></li>
                     <li class="nav__items"><a href="contact.html">Contact Us</a></li>
@@ -22,40 +23,49 @@
                 </ul> <!-- .nav__list end -->
             </div> <!-- .nav__wrapper end -->
         </nav>
-        <div class="header__heading">
-            <h1 class="black">Kings</h1>
-            <h1>Of The</h1>
-            <h1>Road</h1>
-            <a href="#">Shop Now</a>
-        </div> <!-- .header__heading end -->
-        <video loop autoplay>
-            <source src="img/skate.mp4"> 
-        </video> <!-- video end -->
     </header> <!-- .header end -->
-    <main class="collection">
-        <div class="collection__main">
-            <div class="collection__main--heading">
-                <h1 class="green">New</h1>
-                <h1>Colle-</h1>
-                <h1>ction</h1>
-                <a href="#">See All</a>
-            </div> <!-- .collection__main-heading end -->
-            <img src="img/skateboardMain.png" alt="Skateboard Image">
-        </div> <!-- .collection__main end -->
-        <ul class="collection__list">
-            <li class="collection__item"><img src="img/skateboard1.png" alt="Skateboard Image"></li>
-            <li class="collection__item"><img src="img/skateboard2.png" alt="Skateboard Image"></li>
-            <li class="collection__item"><img src="img/skateboard3.png" alt="Skateboard Image"></li>
-            <li class="collection__item"><img src="img/skateboard4.png" alt="Skateboard Image"></li>
-        </ul> <!-- .collection__list end -->
-    </main> <!-- .collection end -->
-    <main class="about">
-        <div class="about__info">
-            <h1>About <br> Us</h1>
-            <p>I'm a paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to add your own content and make changes to the font. I’m a great place for you to tell a story and let your users know a little more about you.</p>
-            <a href="#">Our Story</a>
-        </div> <!-- .about__info end -->
-    </main> <!-- .about end -->
+    <main class="cart">
+        <div class="cart__heading">
+            <a href="shop.html"><img src="img/left-arrow.svg" alt="Arrow Icon">Continue Shopping</a>
+            <button>Checkout</button>
+        </div> <!-- .cart__heading end -->
+        <div class="cart__info">
+            <h2>My Cart</h2>
+            <ul class="cart__info--list">
+                <li class="cart__info--item">Price</li>
+                <li class="cart__info--item">Qty</li>
+                <li class="cart__info--item">Total</li>
+            </ul> <!-- .cart__info-list end -->
+        </div> <!-- .cart__info end -->
+        <ul class="cart__list">
+            <li class="cart__item">
+                <div class="item__main">
+                    <img src="img/skateboard1.png" alt="Item Image">
+                    <div class="item__main--info">
+                        <h5>I'm a product</h5>
+                        <p>SKU: 36523641234455</p>
+                        <a href="#">Remove</a>
+                    </div> <!-- .item__main-info end -->
+                </div> <!-- .item__main end -->
+                <div class="item__cost">
+                    <h5>$200.00</h5>
+                    <input type="text">
+                    <h5>$200.00</h5>
+                </div> <!-- .item__cost end -->
+            </li> <!-- .cart__item end -->
+        </ul> <!-- .cart__list end -->
+        <div class="cart__wrapper">
+            <div class="cart__footer">
+                <span><img src="img/price-tag.svg" alt="Tag Icon">Enter a promo code</span>
+            </div> <!-- .cart__footer -->
+            <div class="cart__checkout">
+                <span class="subtotal"><p>Subtotal</p><p>$200.00</p></span>
+                <span class="shipping"><p>Shipping</p><p>FREE</p></span>
+                <span class="total"><p>Total</p><p>$200.00</p></span>
+                <button>Checkout</button>
+            </div> <!-- .cart__checkout end -->
+        </div> <!-- .cart__wrapper -->
+    </main> <!-- .cart end -->
     <footer class="footer">
         <div class="footer__wrapper">
             <div class="footer__links">
@@ -87,6 +97,6 @@
  src="https://code.jquery.com/jquery-3.3.1.min.js"
  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
  crossorigin="anonymous"></script>
- <script src="js/main.js"></script>
+<script src="js/main.js"></script>
 </body>
 </html>
