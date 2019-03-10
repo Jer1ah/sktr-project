@@ -3,7 +3,7 @@ html, body {
   margin: 0;
   box-sizing: border-box;
   font-size: 10px;
-  font-family: "Oswald", sans-serif;
+  font-family: sans-serif;
 }
 
 .nav__wrapper, .collection__main {
@@ -36,8 +36,8 @@ html, body {
   font-size: 10rem;
   text-transform: uppercase;
   color: white;
-  letter-spacing: 1.9rem;
-  line-height: 2.2rem;
+  letter-spacing: 1.35rem;
+  line-height: 1rem;
 }
 .header__heading .black {
   color: black;
@@ -73,12 +73,15 @@ html, body {
 .collection__main--heading {
   position: absolute;
   left: 0;
+  top: 1.5rem;
+  height: auto;
 }
 .collection__main--heading h1 {
   font-size: 6.3rem;
-  line-height: 3rem;
+  line-height: 2rem;
   text-transform: uppercase;
   letter-spacing: 1rem;
+  font-weight: 900;
 }
 .collection__main--heading .green {
   color: #3ABA89;
@@ -88,7 +91,7 @@ html, body {
   color: white;
   border: none;
   text-transform: uppercase;
-  padding: 1.1rem 4.5rem;
+  padding: 1.4rem 4.2rem;
   font-size: 1.5rem;
   text-decoration: none;
 }
@@ -130,28 +133,28 @@ html, body {
 }
 .about__info h1 {
   line-height: 7rem;
-  font-size: 7rem;
+  font-size: 6rem;
   position: absolute;
   left: -5rem;
-  top: 3rem;
+  top: 2rem;
   margin: 0;
   letter-spacing: 1.2rem;
   text-transform: uppercase;
 }
 .about__info p {
   width: 65%;
-  margin: 13rem auto 0;
+  margin: 11rem auto 0;
   font-size: 1.5rem;
-  line-height: 2.5rem;
+  line-height: 2.2rem;
+  font-weight: 100;
 }
 .about__info a {
   color: black;
   background-color: white;
-  padding: 1.3rem 4rem;
+  padding: 1.3rem 3rem;
   text-decoration: none;
   font-size: 1.5rem;
   text-transform: uppercase;
-  letter-spacing: 0.3rem;
   position: absolute;
   right: 5rem;
   bottom: -2rem;
@@ -198,6 +201,7 @@ html, body {
   color: white;
   font-size: 1.7rem;
   margin-bottom: 0;
+  font-weight: 500;
 }
 .footer__form {
   margin-top: 1.5rem;
@@ -235,7 +239,7 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 0.7rem;
+  margin: 0 0.5rem;
 }
 .footer__items img {
   width: 1.5rem;
@@ -250,7 +254,7 @@ html, body {
   color: white;
 }
 .footer__bottom span {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .contact__heading {
@@ -288,6 +292,7 @@ html, body {
 .contact__store li {
   font-size: 1.4rem;
   margin: 0.3rem 0;
+  font-weight: 300;
 }
 .contact__store li p {
   margin: 0;
@@ -304,6 +309,7 @@ html, body {
 .contact__hours li {
   font-size: 1.4rem;
   margin: 0.3rem 0;
+  font-weight: 300;
 }
 .contact__hours li p {
   margin: 0;
@@ -398,9 +404,11 @@ html, body {
 .faq__question p {
   font-size: 1.6rem;
   margin-bottom: 0.5rem;
+  font-weight: 300;
 }
 .faq ol {
   font-size: 1.5rem;
+  font-weight: 300;
 }
 
 .question__wrapper {
@@ -411,12 +419,12 @@ html, body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  margin: 18rem auto 5rem;
+  margin: 13.5rem auto 5rem;
   width: 90rem;
   position: relative;
 }
 .story__heading img {
-  height: 34rem;
+  height: 31.5rem;
 }
 .story__heading h1 {
   position: absolute;
@@ -440,11 +448,13 @@ html, body {
   margin-top: 0;
   font-size: 2.1rem;
   font-weight: bold;
-  line-height: 3.5rem;
+  line-height: 2.8rem;
 }
 .story__info--right {
   width: 60rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
+  font-weight: 100;
+  line-height: 2rem;
 }
 .story__info--right p {
   margin: 0;
@@ -457,9 +467,9 @@ html, body {
   margin: 8rem auto;
 }
 .story__team h1 {
-  font-size: 4rem;
+  font-size: 3.8rem;
   letter-spacing: 0.7rem;
-  margin-bottom: 0;
+  margin-bottom: 1.5rem;
 }
 .story__teamList {
   padding: 0;
@@ -475,13 +485,15 @@ html, body {
   width: 100%;
 }
 .story__teamItem h3 {
-  font-size: 2.5rem;
-  margin: 1rem 0;
+  font-size: 2.3rem;
+  margin: 2.3rem 0 0.5rem;
 }
 .story__teamItem p {
   font-size: 1.5rem;
   width: 25rem;
   margin-top: 0;
+  font-weight: 100;
+  line-height: 2rem;
 }
 
 .blog__heading {
@@ -503,6 +515,7 @@ html, body {
   font-size: 6.5rem;
   line-height: 7.2rem;
   margin-top: 0;
+  font-weight: 900;
 }
 .blog__warning {
   width: 95rem;
@@ -565,6 +578,7 @@ html, body {
   letter-spacing: 0.5rem;
   line-height: 3.8rem;
   transition: all 0.3s;
+  font-weight: 900;
 }
 .blog__item--info .heading:hover {
   color: #3ABA89;
@@ -619,6 +633,7 @@ html, body {
 .article__heading p {
   font-size: 1.85rem;
   letter-spacing: 0.1rem;
+  font-weight: 400;
 }
 .article__image {
   width: 100%;
@@ -627,6 +642,7 @@ html, body {
   font-size: 1.6rem;
   width: 66rem;
   letter-spacing: 0.1rem;
+  font-weight: 200;
 }
 .article .italicParagraph {
   font-size: 2.1rem;
@@ -636,15 +652,18 @@ html, body {
   border-left: 0.2rem solid #3ABA89;
   padding-left: 2rem;
   margin: 3rem 0;
+  font-weight: 300;
 }
 .article .paragraph1, .article .paragraph2, .article .paragraph3 {
   font-size: 1.7rem;
   letter-spacing: 0.1rem;
+  font-weight: 200;
 }
 .article h3 {
   font-size: 2.1rem;
   letter-spacing: 0.1rem;
   margin: 2.5rem 0;
+  font-weight: 500;
 }
 .article__list {
   display: flex;
@@ -701,13 +720,29 @@ html, body {
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 0.4rem;
+  letter-spacing: 0.2rem;
 }
 .nav__items img {
   height: 2.7rem;
 }
 .nav .active a {
   color: #103225;
+}
+
+.shopping-cart {
+  position: relative;
+}
+.shopping-cart h5 {
+  color: #fcfcfc;
+  font-size: 1.3rem;
+  font-weight: 200;
+  position: absolute;
+  top: -1.1rem;
+  left: 1rem;
+}
+
+.shopping-cart:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -16,10 +16,10 @@
 
         h1 {
             line-height: 7rem;
-            font-size: 7rem;
+            font-size: 6rem;
             position: absolute;
             left: -5rem;
-            top: 3rem;
+            top: 2rem;
             margin: 0;
             letter-spacing: 1.2rem;
             text-transform: uppercase;
@@ -27,19 +27,19 @@
 
         p {
             width: 65%;
-            margin: 13rem auto 0;
+            margin: 11rem auto 0;
             font-size: 1.5rem;
-            line-height: 2.5rem;
+            line-height: 2.2rem;
+            font-weight: 100;
         }
 
         a {
             color: black;
             background-color: white;
-            padding: 1.3rem 4rem;
+            padding: 1.3rem 3rem;
             text-decoration: none;
             font-size: 1.5rem;
             text-transform: uppercase;
-            letter-spacing: .3rem;
             position: absolute;
             right: 5rem;
             bottom: -2rem;

@@ -3,12 +3,12 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        margin: 18rem auto 5rem;
+        margin: 13.5rem auto 5rem;
         width: 90rem;
         position: relative;
 
         img {
-            height: 34rem;
+            height: 31.5rem;
         }
 
         h1 {
@@ -35,12 +35,14 @@
             margin-top: 0;
             font-size: 2.1rem;
             font-weight: bold;
-            line-height: 3.5rem;
+            line-height: 2.8rem;
         }
 
         &--right {
             width: 60rem;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
+            font-weight: 100;
+            line-height: 2rem;
 
             p {
                 margin: 0;
@@ -57,9 +59,9 @@
         margin: 8rem auto;
 
         h1 {
-            font-size: 4rem;
+            font-size: 3.8rem;
             letter-spacing: .7rem;
-            margin-bottom: 0;
+            margin-bottom: 1.5rem;
         }
     }
 
@@ -79,14 +81,16 @@
         }
 
         h3 {
-            font-size: 2.5rem;
-            margin: 1rem 0;
+            font-size: 2.3rem;
+            margin: 2.3rem 0 .5rem;
         }
 
         p {
             font-size: 1.5rem;
             width: 25rem;
             margin-top: 0; 
+            font-weight: 100;
+            line-height: 2rem;
         }
     }
 }

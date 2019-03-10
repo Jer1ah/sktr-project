@@ -26,6 +26,7 @@
         p {
             font-size: 1.85rem;
             letter-spacing: .1rem;
+            font-weight: 400;
         }
     }
 
@@ -36,7 +37,8 @@
     .imageInfo {
         font-size: 1.6rem;
         width: 66rem;
-        letter-spacing: .1rem
+        letter-spacing: .1rem;
+        font-weight: 200;
     }
 
     .italicParagraph {
@@ -47,17 +49,20 @@
         border-left: .2rem solid #3ABA89;
         padding-left: 2rem;
         margin: 3rem 0;
+        font-weight: 300;
     }
 
     .paragraph1, .paragraph2, .paragraph3 {
         font-size: 1.7rem;
         letter-spacing: .1rem;
+        font-weight: 200;
     }
 
     h3 {
         font-size: 2.1rem;
         letter-spacing: .1rem;
         margin: 2.5rem 0;
+        font-weight: 500;
     }
 
     &__list {
