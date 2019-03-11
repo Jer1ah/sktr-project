@@ -884,6 +884,8 @@ html, body {
   width: 6.5rem;
   height: 4rem;
   margin: 0 1.1rem;
+  text-indent: 1.3rem;
+  font-size: 1.5rem;
 }
 .cart .item__cost h5:last-child {
   margin-right: 0;
